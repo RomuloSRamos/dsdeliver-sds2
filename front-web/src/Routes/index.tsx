@@ -1,7 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../Home";
 import Navbar from "../Navbar";
-import Order from "../Orders";
+import Orders from "../Orders";
 
 function Routes(){
   return(
@@ -9,7 +9,7 @@ function Routes(){
       <Navbar/>
       <Switch>
         <Route path="/orders">
-          <Order />
+          <Orders />
         </Route>
         <Route path="/">
           <Home />
