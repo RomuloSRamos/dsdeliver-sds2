@@ -1,4 +1,4 @@
-import { type } from "os";
+
 import ProductCard from "./ProductCard";
 import { Product } from "./types";
 
